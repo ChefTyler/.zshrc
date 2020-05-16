@@ -1,12 +1,6 @@
-### DO NOT EDIT THIS UNLESS YOU KNOW WHAT YOU ARE DOING ###
-### PROMPT SETTINGS ARE STORED IN '~/.zsh_prompt.conf' ###
-### SET UP THE PROMPT ###
 setopt PROMPT_SUBST
-### ZSH OPTIONS ###
-# make zsh behave better with '&', '*', etc when used as input with a command
 setopt no_nullglob
 setopt no_nomatch
-###
 ### FUNCTIONS TO OUTPUT COLOR SAMPLES ###
 prompt_fg_samples () {
     for i in {000..256}; do
